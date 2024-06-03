@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medoc</title>
+  <!-- Include Firebase SDK and analytics scripts separately -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-database-compat.js"></script>
+  <!-- Include other stylesheets and scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Medoc</h1>
+    <div class="time-slots">
+      <h2>Time Slot 1</h2>
+      <label for="time1">Set Time:</label>
+      <input type="time" id="time1">
+      <h2>Time Slot 2</h2>
+      <label for="time2">Set Time:</label>
+      <input type="time" id="time2">
+      <h2>Time Slot 3</h2>
+      <label for="time3">Set Time:</label>
+      <input type="time" id="time3">
+    </div>
+    <button type="button" id="saveButton" class="save-button" onclick="saveTimes()">Save Times</button>
+  </div>
+  <!-- Include your custom JavaScript file at the end of the body -->
+  <script src="script.js"></script>
+</body>
+
+</html>
