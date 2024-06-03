@@ -35,7 +35,7 @@ RTC_DS3231 rtc;
 // const int servoClosePosition = 600;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
-String phoneNumber = "+94769130441";
+String phoneNumber = "phone_number";
 String apiKey = "4486037";
 
 void displayDateTime(const DateTime &dt);
