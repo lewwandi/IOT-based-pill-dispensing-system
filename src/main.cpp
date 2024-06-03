@@ -15,8 +15,8 @@ const int irSensorPin = D4;
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
 
-const char *ssid = "Lew's iphone";
-const char *password = "21Lew2001";
+const char *ssid = "Your_SSID";
+const char *password = "Password";
 #define FIREBASE_HOST "pill-dispensing-system-6c2b6-default-rtdb.asia-southeast1.firebasedatabase.app"
 #define FIREBASE_API_KEY "AIzaSyDi3DIZm9jGJYTcDGtK3cIey46Hk0hW_KY"
 FirebaseData fbdo;
