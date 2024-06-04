@@ -8,8 +8,8 @@ const char* ssid = "SSID";
 const char* password = "WiFi-password";
 
 
-String phoneNumber = "+94769130441";
-String apiKey = "4486037";
+String phoneNumber = "mobile_number";
+String apiKey = "api_key";
 
 void sendMessage(String message){
 
